@@ -24,9 +24,9 @@ provider "aws" {
 }
 */
 
-resource "aws_instance" "ansible_server" {
-  ami           = "ami-08d70e59c07c61a3a"
-  instance_type = "t2.micro"
+//resource "aws_instance" "ansible_server" {
+//  ami           = "ami-08d70e59c07c61a3a"
+//  instance_type = "t2.micro"
 
 //  lifecycle {
 //    create_before_destroy = true
